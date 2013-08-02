@@ -43,7 +43,6 @@ public class Converter{
 		//reads in data from the .pptx file
 		ppt = new XMLSlideShow(new FileInputStream(name));
 		slides = ppt.getSlides();
-		
 	}
 	public void convert() {
 		try {

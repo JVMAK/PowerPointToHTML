@@ -27,7 +27,7 @@ public class MainMenu {
 		read = new JButton("Read");
 		done = new JButton("Done");
 		frame.getContentPane().setLayout(new FlowLayout());
-		frame.setSize(220, 240);
+		frame.setSize(220, 230);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //		Brings up the Menu to select a .pptx file to convert to xml
 		upload.addActionListener(new ActionListener() {

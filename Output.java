@@ -18,6 +18,9 @@ public class Output {
 //				RIGHT Alignment
 				if(lines.get(i).contains("\"r\""))
 					text += "RIGHT_ALIGNMENT\n";
+//				JUSTIFIED ALIGNMENT
+				if(lines.get(i).contains("just"))
+					text += "JUSTIFIED_ALIGNMENT\n";
 				left = false;
 				leftCount = 1;
 			}
